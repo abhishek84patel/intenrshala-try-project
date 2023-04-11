@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url(./bg-01-free-img-1.jpg);
+  background-color: rgb(77, 75, 75);
+  background-size: cover;
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+}
+main {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  width: 90%;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100px;
+}
+img {
+  max-width: 200px;
+}
+ul {
+  list-style: none;
+}
+ul li {
+  padding: 10px 20px;
+  font-size: 1.1rem;
+}
+button {
+  padding: 17px 55px;
+  background-color: #f82586;
+  color: white;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  border: none;
+}
+h1 {
+  font-size: 5rem;
+  text-decoration: underline;
+}
+h3 {
+  font-size: 1.3rem;
+  color: #808285;
+}
+.m-flex {
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+  padding: 40px 0;
+}
+.gap {
+  gap: 3rem;
+  justify-content: flex-end;
+}
+.about .img1 {
+  max-width: 1200px;
+  width: 100%;
+  opacity: 0.7;
+}
+.about .img2 {
+  max-width: 700px;
+}
+.about .a-flex {
+  display: flex;
+  min-height: 90vh;
+  padding: 10rem 0;
+  justify-content: flex-start;
+  background: url(https://thelearncloud.com/wp-content/uploads/2021/09/about-001-free-img.png);
+  background-size: cover;
+  /* background-position: 100% 100%; */
+  background-position: bottom center;
+}
+.about h2 {
+  font-size: 3.5rem;
+}
+.about p {
+  padding: 40px 0;
+  font-size: 1.5rem;
+}
+.box {
+  width: 250px;
+  padding: 0 14px;
+}
+.box img {
+  border: 5px solid white;
+}
+.b1 {
+  margin-top: -50px;
+}
+.service {
+  display: flex;
+  justify-content: space-around;
+  padding: 100px 0;
+  flex-wrap: wrap;
+}
+.menu {
+  display: none;
+}
+.gap-img {
+  width: 50%;
+  max-width: none;
+}
+
+@media screen and (max-width: 1000px) {
+  nav,
+  button {
+    display: none;
+  }
+  .menu {
+    display: block;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+  .gap {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .b1 {
+    margin-top: 0;
+  }
+  .pt {
+    padding-top: 25px;
+  }
+}
